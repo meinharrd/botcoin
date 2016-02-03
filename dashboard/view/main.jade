@@ -1,0 +1,12 @@
+extends ./layout.jade
+
+block content
+	div.row(ng-app='main')
+		div.col-xs-12
+			p.lead.
+				Jade is cool, but I don't want node to serve my HTML.
+				I will create a bunch of html files instead.
+				Those will be included using jQuery.load() because fuck you.
+
+			div(ng-controller='mainCtrl').
+				{{data}}

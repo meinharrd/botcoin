@@ -2,7 +2,6 @@
   "dependencies": {
     "express": "^4.13.4",
     "firebase": "^2.4.0",
-    "jade": "^1.11.0",
     "request": "^2.69.0"
   },
   "scripts": {

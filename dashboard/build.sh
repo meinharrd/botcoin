@@ -1,0 +1,1 @@
+jade view/main.jade -P -o build
